@@ -1,0 +1,239 @@
+/*developed by Alexander Bogdanov*/
+
+
+$grey: #a6a7a6
+$white: #f3ece8
+$blue: #dbe0db
+$clockScreen: #62e306
+$orange: #f68e56
+$border: #555
+$static: #e5e7eb
+$staticB: #4194fb
+$hover: #7e9ff2
+$hoverB: #0cec1c
+$borderChe: #f2f4f2
+
+#content
+    transition: width ease-out 1s
+#hover
+    margin-top: 240px
+
+
+.firstP p
+    text-align: center
+    font-family: Tahoman Regular
+    font-size: 21px
+    letter-spacing: 2px
+    margin: 21px 0 15px 53px
+    
+.wrap
+    position: absolute
+    width: 100%
+.timer
+    width: 178px
+    height: 53px
+    background-color: #363636
+    border: 3px solid #e6e1de
+    border-radius: 10px
+    position: relative
+    margin: 15px auto 0  auto
+    span
+        color: #343333
+        position: absolute
+        top: 50%
+        margin-top: -18px
+        right: 2%
+        display: block
+        font-size: 22px
+        font-family: Digital-7 
+        background-color: $clockScreen
+        padding: 7px 12px
+        border-radius: 5px
+        border: 1px solid #eaddd7
+    p    
+        color: #f0e8e8
+        width: 45px
+        margin: 8px
+        text-align: center
+        font-family: Digital-7
+        line-height: 20px
+        letter-spacing: 2px
+        
+.arrows 
+    width: 180px
+    margin: 13px auto
+    position: relative
+    
+    h2
+        position: absolute
+        cursor: pointer    
+        &:nth-of-type(1)
+            border-top: 25px solid transparent
+            border-right: 25px solid #555
+            border-bottom: 25px solid transparent
+            font-size: 0px
+            top: 0
+            left: 0
+            &:hover 
+                border-right: 25px solid $orange
+            
+            
+        &:nth-of-type(2)
+            border-top: 25px solid transparent
+            border-left: 25px solid #555
+            border-bottom: 25px solid transparent
+            font-size: 0px
+            right: 0
+            top: 0
+            &:hover
+                border-left: 25px solid $orange
+    p 
+        color: #f1e8e8
+        font-size: 18px
+        font-family: Arial
+        font-transform: uppercase
+        text-align: center
+        padding-top: 15px
+.submit
+    text-align: center
+    margin: 50px 0 0 0 
+    a
+        font-size: 22px
+        text-transform: uppercase
+        letter-spacing: 2px
+        font-family: Tahoma
+        color: #4c4b4b
+        background: linear-gradient(to right, #a6a7a6, #dbe0db, #a6a7a6)
+        padding: 10px 19px
+        border-radius: 10px
+        border: 3px solid #f5f3f1
+        transition: 0.8s
+        &:hover
+            background-position: -120px 0
+            cursor: pointer
+            border: 3px solid $hoverB
+.firstP section
+    background-color: #cccccc
+    width: 90%
+    margin: 0 0 10px 5%
+    position: relative
+    border-radius: 10px
+    
+    overflow: hidden
+    
+    border: 5px solid #555
+    &:nth-of-type(1)
+        margin-top: 10%
+.firstP h3
+    color: #fff
+  
+    
+    
+    &:after
+        content: ''
+        height: 100%
+        width: 0px
+        background-color: $blue
+        position: absolute
+        left: 0
+        top: 0
+        border-top: 14px solid $orange
+        border-left: 28px solid #707070
+        border-right: 28px solid #707070
+        
+    &:before
+        content: 'of'
+        position: absolute
+        left: 21px
+        color: #fff
+        font-size: 20px
+        z-index: 2
+        top: 47%
+       
+    
+  
+.firstP h4
+    color: #fff
+    top: 23%
+    left: 15px
+    width: 27px
+    text-align: center
+    position: absolute
+    font-family: Franklin Gothic Medium
+    font-size: 24px
+.firstP h5
+    @extend h4
+    top: 70%
+    font-size: 22px
+    
+.firstP input[type="radio"]
+    opacity: 0
+.firstP input[type="radio"] + label span
+    color: transparent
+    -webkit-user-select: none 
+    -moz-user-select: none
+    -ms-user-select: none
+    user-select: none   
+    width: 19px
+    height: 19px
+    background-color: $static
+    border-radius: 50%
+    border: 3px solid $staticB
+    display: inline-block
+    cursor: pointer
+    margin-right: 5px
+    transition: 0.5s
+    &:hover
+        background-color: $hover
+        border: 3px solid $hoverB
+       
+.firstP input[type="radio"]:checked + label span
+    background-color: $hoverB
+    border: 3px solid $borderChe
+.firstP label
+    color: #343333
+    font-family: Arial Regular
+    font-size: 19px
+    
+    
+.firstP ul 
+  
+    
+    width: 80%
+    margin: 0 0 34px 15%
+.firstP li 
+    margin: 5px auto
+
+@media only screen and (min-width: 768px)
+    .firstP section
+        width: 60%
+        margin: 0 0 20px 12%
+        &:nth-of-type(1)
+            margin-top: 160px
+    .firstP ul
+        margin: 0 0 34px 68px
+        width: 90%
+        display: flex
+        justify-content: space-around
+    .firstP h3
+        &:after
+            border-top: 24px solid $orange
+            border-left: 38px solid #707070
+            border-right: 38px solid #707070
+        &:before
+            left: 29px
+    .firstP h4
+        left: 26px
+    .firstP p
+        margin: 21px 0 34px 53px
+    .timer
+        float: left
+        margin: 30px 0 0  23%
+    .arrows
+        float: left
+        margin: 35px 0 0  5%
+    .submit
+        float: left
+        margin: 50px 0 0 5%
+
+   

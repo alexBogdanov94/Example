@@ -1,0 +1,126 @@
+body{
+  	border-top: 40px solid #f4b757;
+	  background-color: #cdcdcd;
+	  background-image: url(../Images/lookingDown.png);
+	  background-repeat: no-repeat;
+	  background-size: 100%;
+	  background-position: 0 40px;
+}
+img.logo {
+    position: absolute;
+    top: 14px;
+    left: 30px;
+    width: 25%;
+    z-index: 150;
+    transition: 0.5s;
+}
+img.logo:hover {
+    transform: scale(1.10,1.10);
+     
+ 
+}
+.main  {
+   
+    margin-top: 64%;
+    left: 4.50%;
+   
+    width: 90%;
+    position: absolute;
+    z-index: 1;  
+}
+img.portrait{
+
+     
+}
+#hover {
+	margin-top: 100px;
+	position: relative;
+	z-index: 3;
+    
+    
+}
+
+.footer p {
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+  
+    
+    
+}
+
+.main .faq h2 {
+    
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000000;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-style: italic;
+    background-color: #666666;
+    margin-bottom: 7px;
+    padding: 38px 77px 38px 70px;
+    border-radius: 20px 0px;
+    border-bottom: 2px solid #161616;
+	overflow: hidden;
+	cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;  
+    
+}
+.main .faq h2:hover {
+    background-color: #999999;
+    color: #202020;
+    text-shadow: 2px 2px 2px #fff;
+}
+h2 {   background-image: url(../Images/cross.png);
+    background-repeat: no-repeat;
+    background-position: 20px 50%;}
+.faq:last-child {
+    margin-bottom: 50px;
+}
+.main .answer p {
+    margin: -25px 0 7px 0;
+    border-radius: 0 0px 20px 0;
+    padding: 40px 20px 20px 20px;
+    background-color: #666666;
+    color: #efecec;
+    letter-spacing: 1px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 18px;
+    border-bottom: 2px solid #161616;
+}
+
+
+.active {
+      background-image: url(../Images/minus.png);
+    }
+@media only screen and (min-width : 768px) {
+    body{
+        height: 100.1%;
+        background-image: url(../Images/lokingAside.png);
+        background-size: 28%;
+    }
+    img.logo {
+        width: 8%;
+		left: 7%;
+}
+    .main {
+        margin-top: 5%;
+        width: 25.70%;
+        margin-left: 36.30%;
+    }
+  
+    #hover {
+        float: right;
+        margin-top: 25%;
+    }
+
+
+}

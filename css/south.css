@@ -1,0 +1,258 @@
+/*developed by Alexander Bogdanov*/
+/* line 16, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+#content {
+  transition: width ease-out 1s; }
+
+/* line 18, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+#hover {
+  margin-top: 240px; }
+
+/* line 22, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.firstP p {
+  text-align: center;
+  font-family: Tahoman Regular;
+  font-size: 21px;
+  letter-spacing: 2px;
+  margin: 21px 0 15px 53px; }
+
+/* line 29, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.wrap {
+  position: absolute;
+  width: 100%; }
+
+/* line 32, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.timer {
+  width: 178px;
+  height: 53px;
+  background-color: #363636;
+  border: 3px solid #e6e1de;
+  border-radius: 10px;
+  position: relative;
+  margin: 15px auto 0  auto; }
+  /* line 40, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .timer span {
+    color: #343333;
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    right: 2%;
+    display: block;
+    font-size: 22px;
+    font-family: Digital-7;
+    background-color: #62e306;
+    padding: 7px 12px;
+    border-radius: 5px;
+    border: 1px solid #eaddd7; }
+  /* line 53, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .timer p {
+    color: #f0e8e8;
+    width: 45px;
+    margin: 8px;
+    text-align: center;
+    font-family: Digital-7;
+    line-height: 20px;
+    letter-spacing: 2px; }
+
+/* line 62, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.arrows {
+  width: 180px;
+  margin: 13px auto;
+  position: relative; }
+  /* line 67, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .arrows h2 {
+    position: absolute;
+    cursor: pointer; }
+    /* line 70, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+    .arrows h2:nth-of-type(1) {
+      border-top: 25px solid transparent;
+      border-right: 25px solid #555;
+      border-bottom: 25px solid transparent;
+      font-size: 0px;
+      top: 0;
+      left: 0; }
+      /* line 77, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+      .arrows h2:nth-of-type(1):hover {
+        border-right: 25px solid #f68e56; }
+    /* line 81, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+    .arrows h2:nth-of-type(2) {
+      border-top: 25px solid transparent;
+      border-left: 25px solid #555;
+      border-bottom: 25px solid transparent;
+      font-size: 0px;
+      right: 0;
+      top: 0; }
+      /* line 88, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+      .arrows h2:nth-of-type(2):hover {
+        border-left: 25px solid #f68e56; }
+  /* line 90, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .arrows p {
+    color: #f1e8e8;
+    font-size: 18px;
+    font-family: Arial;
+    font-transform: uppercase;
+    text-align: center;
+    padding-top: 15px; }
+
+/* line 97, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.submit {
+  text-align: center;
+  margin: 50px 0 0 0; }
+  /* line 100, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .submit a {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Tahoma;
+    color: #4c4b4b;
+    background: linear-gradient(to right, #a6a7a6, #dbe0db, #a6a7a6);
+    padding: 10px 19px;
+    border-radius: 10px;
+    border: 3px solid #f5f3f1;
+    transition: 0.8s; }
+    /* line 111, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+    .submit a:hover {
+      background-position: -120px 0;
+      cursor: pointer;
+      border: 3px solid #0cec1c; }
+
+/* line 115, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.firstP section {
+  background-color: #cccccc;
+  width: 90%;
+  margin: 0 0 10px 5%;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 5px solid #555; }
+  /* line 125, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .firstP section:nth-of-type(1) {
+    margin-top: 10%; }
+
+/* line 127, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.firstP h3 {
+  color: #fff; }
+  /* line 132, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .firstP h3:after {
+    content: '';
+    height: 100%;
+    width: 0px;
+    background-color: #dbe0db;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top: 14px solid #f68e56;
+    border-left: 28px solid #707070;
+    border-right: 28px solid #707070; }
+  /* line 144, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .firstP h3:before {
+    content: 'of';
+    position: absolute;
+    left: 21px;
+    color: #fff;
+    font-size: 20px;
+    z-index: 2;
+    top: 47%; }
+
+/* line 155, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.firstP h4, .firstP h5 {
+  color: #fff;
+  top: 23%;
+  left: 15px;
+  width: 27px;
+  text-align: center;
+  position: absolute;
+  font-family: Franklin Gothic Medium;
+  font-size: 24px; }
+
+/* line 164, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.firstP h5 {
+  top: 70%;
+  font-size: 22px; }
+
+/* line 169, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.firstP input[type="radio"] {
+  opacity: 0; }
+
+/* line 171, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.firstP input[type="radio"] + label span {
+  color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 19px;
+  height: 19px;
+  background-color: #e5e7eb;
+  border-radius: 50%;
+  border: 3px solid #4194fb;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: 0.5s; }
+  /* line 186, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .firstP input[type="radio"] + label span:hover {
+    background-color: #7e9ff2;
+    border: 3px solid #0cec1c; }
+
+/* line 190, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.firstP input[type="radio"]:checked + label span {
+  background-color: #0cec1c;
+  border: 3px solid #f2f4f2; }
+
+/* line 193, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.firstP label {
+  color: #343333;
+  font-family: Arial Regular;
+  font-size: 19px; }
+
+/* line 199, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.firstP ul {
+  width: 80%;
+  margin: 0 0 34px 15%; }
+
+/* line 204, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+.firstP li {
+  margin: 5px auto; }
+
+@media only screen and (min-width: 768px) {
+  /* line 208, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .firstP section {
+    width: 60%;
+    margin: 0 0 20px 12%; }
+    /* line 211, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+    .firstP section:nth-of-type(1) {
+      margin-top: 160px; }
+  /* line 213, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .firstP ul {
+    margin: 0 0 34px 68px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around; }
+  /* line 219, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .firstP h3:after {
+    border-top: 24px solid #f68e56;
+    border-left: 38px solid #707070;
+    border-right: 38px solid #707070; }
+  /* line 223, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .firstP h3:before {
+    left: 29px; }
+  /* line 225, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .firstP h4, .firstP h5 {
+    left: 26px; }
+  /* line 227, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .firstP p {
+    margin: 21px 0 34px 53px; }
+  /* line 229, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .timer {
+    float: left;
+    margin: 30px 0 0  23%; }
+  /* line 232, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .arrows {
+    float: left;
+    margin: 35px 0 0  5%; }
+  /* line 235, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/south.sass */
+  .submit {
+    float: left;
+    margin: 50px 0 0 5%; } }
+
+/*# sourceMappingURL=south.css.map */

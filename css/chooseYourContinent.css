@@ -1,0 +1,101 @@
+/*developed by Alexander Bogdanov */
+body {
+  border-top: 40px solid #f4b757;
+  background-color: #969696; }
+
+#content {
+  height: 100%;
+  z-index: 99; }
+
+img.logo {
+  position: absolute;
+  top: 14px;
+  left: 30px;
+  width: 25%;
+  z-index: 150;
+  transition: 0.5s; }
+  img.logo:hover {
+    transform: scale(1.1, 1.1); }
+
+#hover {
+  margin-top: 100px;
+  position: relative;
+  z-index: 99; }
+
+.footer p {
+  position: fixed;
+  bottom: 0;
+  z-index: 100; }
+
+section h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  width: 90%; }
+
+nav ul {
+  position: absolute;
+  top: 30%;
+  right: 8%; }
+
+section a {
+  color: #fff;
+  font-family: "Roboto", sasn-serif;
+  font-size: 24px;
+  line-height: 48px; }
+  section a:hover {
+    color: #f67; }
+
+aside figure {
+  width: 60%;
+  padding-bottom: 60%;
+  height: auto;
+  border-radius: 50%;
+  background: url("../Images/WorlMap.png");
+  position: relative;
+  margin: 300px 0 0 0;
+  animation: rotateMap 40s linear infinite;
+  background-size: cover;
+  z-index: -20; }
+  aside figure:before, aside figure:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: -40px 10px 100px 10px inset;
+    border-radius: 50%;
+    display: block; }
+  aside figure:after {
+    box-shadow: 20px 0px 40px 10px #fff inset; }
+@keyframes rotateMap {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 200%, 0; } }
+@media only screen and (min-width: 768px) {
+  img.logo {
+    width: 8%;
+    left: 7%; }
+
+  #hover {
+    float: right;
+    margin-top: 25%; }
+
+  section h1 {
+    top: 10%;
+    left: 0; }
+
+  nav ul {
+    top: 21%;
+    right: 30%; }
+
+  aside figure {
+    margin: 12% 0 0 25%;
+    width: 30%;
+    padding-bottom: 30%; } }
+
+/*# sourceMappingURL=chooseYourContinent.css.map */

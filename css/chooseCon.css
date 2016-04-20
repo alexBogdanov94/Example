@@ -1,0 +1,117 @@
+/*developed by Alexander Bogdanov */
+/* line 2, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+body {
+  border-top: 40px solid #f4b757;
+  background-color: #969696; }
+
+/* line 5, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+#content {
+  height: 100%;
+  z-index: 99; }
+
+/* line 10, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+img.logo {
+  position: absolute;
+  top: 14px;
+  left: 30px;
+  width: 25%;
+  z-index: 150;
+  transition: 0.5s; }
+  /* line 17, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+  img.logo:hover {
+    transform: scale(1.1, 1.1); }
+
+/* line 20, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+#hover {
+  margin-top: 100px;
+  position: relative;
+  z-index: 99; }
+
+/* line 25, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+.footer p {
+  position: fixed;
+  bottom: 0;
+  z-index: 100; }
+
+/* line 29, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+section h1 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  width: 90%; }
+
+/* line 39, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+nav ul {
+  position: absolute;
+  top: 30%;
+  right: 8%; }
+
+/* line 43, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+section a {
+  color: #fff;
+  font-family: 'Roboto', sasn-serif;
+  font-size: 24px;
+  line-height: 48px; }
+  /* line 48, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+  section a:hover {
+    color: #f67; }
+
+/* line 50, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+aside figure {
+  width: 60%;
+  padding-bottom: 60%;
+  height: auto;
+  border-radius: 50%;
+  background: url("../Images/WorlMap.png");
+  position: relative;
+  margin: 300px 0 0 0;
+  animation: rotateMap 40s linear infinite;
+  background-size: cover;
+  z-index: -20; }
+  /* line 62, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+  aside figure:before, aside figure:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: -40px 10px 100px 10px inset;
+    border-radius: 50%;
+    display: block; }
+  /* line 74, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+  aside figure:after {
+    box-shadow: 20px 0px 40px 10px #fff inset; }
+
+@keyframes rotateMap {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 200%, 0; } }
+
+@media only screen and (min-width: 768px) {
+  /* line 87, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+  img.logo {
+    width: 8%;
+    left: 7%; }
+  /* line 90, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+  #hover {
+    float: right;
+    margin-top: 25%; }
+  /* line 93, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+  section h1 {
+    top: 10%;
+    left: 0; }
+  /* line 96, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+  nav ul {
+    top: 21%;
+    right: 30%; }
+  /* line 99, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/chooseCon.sass */
+  aside figure {
+    margin: 12% 0 0 25%;
+    width: 30%;
+    padding-bottom: 30%; } }
+
+/*# sourceMappingURL=chooseCon.css.map */

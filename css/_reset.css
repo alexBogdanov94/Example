@@ -1,0 +1,37 @@
+/* reset styles */
+/* line 2, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/_reset.sass */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal; }
+
+/* line 8, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/_reset.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 11, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/_reset.sass */
+td, th, caption {
+  font-weight: normal;
+  text-align: left; }
+
+/* line 14, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/_reset.sass */
+img, fieldset {
+  border: 0; }
+
+/* line 16, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/_reset.sass */
+ol {
+  padding-left: 1.4em; }
+
+/* line 18, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/_reset.sass */
+ul {
+  padding-left: 1.4em; }
+
+/* line 20, C:/Users/Alexander/Downloads/CodeData/AlexProfile/css/_reset.sass */
+a {
+  text-decoration: none; }
+
+/* end reset */
+
+/*# sourceMappingURL=_reset.css.map */
